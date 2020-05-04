@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#-------------------------------------------------------------------------
+# -------------------------------------------------------------------------
 # bot.py - Encapsulation module for information pertaining to Autumn
 # Author: Jason Drawdy
 # Date: 5.3.20
@@ -8,7 +8,7 @@
 # Description:
 # This module controls all aspects of the bot itself such as its name and
 # other information such as the commands and or the replies it uses.
-#-------------------------------------------------------------------------
+# -------------------------------------------------------------------------
 
 # =======================================
 # Imports

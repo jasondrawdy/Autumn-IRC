@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#-------------------------------------------------------------------------
+# -------------------------------------------------------------------------
 # main.py - Minimal IRC moderator bot for the Rizon network
 # Author: Jason Drawdy
 # Date: 5.3.20
@@ -8,7 +8,7 @@
 # Description:
 # Autumn is a simple IRC bot meant to aid in the moderating of a single
 # channel under a single bot master and with minimal interaction/commands.
-#-------------------------------------------------------------------------
+# -------------------------------------------------------------------------
 
 # =======================================
 # Imports
