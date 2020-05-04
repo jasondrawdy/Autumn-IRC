@@ -119,7 +119,7 @@ def main():
             messages.print_message(("Path: %s" % path), NONE, False)
     start_resolver()
     start_bot()
-    wait() # Wait for for input since we're multi-threading.
+    wait() # Wait for input since we're multi-threading.
     exit(0) # End the script gracefully.
 
 def wait():
