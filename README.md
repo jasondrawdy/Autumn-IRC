@@ -15,7 +15,7 @@ When running Autumn for the first time, it will automatically connect to the Riz
 Currently there are only a handful of plugins for the bot because of simplicity and keeping the codebase fairly small. Most plugins that aren't available can be created from the provided plugin templates. Along with dynamically loaded plugins, the bot also features internal commands which can be modified from  within the `bot.py` file. The commands that already exist are again, very simple such as replying to the bot's name, replying with the sky's color, or even just a friendly hello.
 
 ##### Current Plugins:
-** Note*: Private commands can only be run by the bot master and nobody else.
+**Note**: Private commands can only be run by the bot master and nobody else.
 
 | Plugin          | Private   | Description                        |
 |-----------------|:---------:|------------------------------------|
