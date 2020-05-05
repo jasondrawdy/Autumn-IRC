@@ -14,7 +14,7 @@ When running Autumn for the first time, it will automatically connect to the Riz
 # Plugins
 Currently there are only a handful of plugins for the bot because of simplicity and keeping the codebase fairly small. Most plugins that aren't available can be created from the provided plugin templates. Along with dynamically loaded plugins, the bot also features internal commands which can be modified from  within the `bot.py` file. The commands that already exist are again, very simple such as replying to the bot's name, replying with the sky's color, or even just a friendly hello.
 
-#### Current Plugins:
+### Current Plugins:
 **Note**: Private commands can only be run by the bot master and nobody else.
 
 | Plugin          | Private   | Description                        |
@@ -27,7 +27,7 @@ Currently there are only a handful of plugins for the bot because of simplicity 
 | autumn_test.py  | No        | Sends a test message to the sender |
 | autumn_torch.py | Yes       | Kills a process remotely           |
 
-#### Plugin Template:
+### Plugin Template:
 If you would like to create a plugin for Autumn you can do so by following the structure of the template below. The template is actually fairly straight-forward and easy to follow. The first thing to notice is that the `bot` object, `sender`, and the `channel` if any, are provided to the plugin upon startup. The plugin is also provided any given args and the first real argument can typically be accessed at `args[0][0][0]`. Also, another point to take notice of is since the plugins are dynamically loaded any changes that are saved will be reflected in a nearly real-time state. The final and most important aspect of plugins for the bot is the naming convention. Right now, plugin files need to have the prefix of `autumn_` and then the actual plugin name such as *`hi`* for example; and thus making the name of the file itself `autumn_hi.py` and therefore recognizable by the bot for loading into its dictionary.
 ```
 #!/usr/bin/python
